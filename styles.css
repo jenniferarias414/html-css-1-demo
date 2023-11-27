@@ -1,0 +1,49 @@
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+}
+
+p {
+    text-align: center;
+}
+
+body a {
+    text-decoration: none;
+    color: aqua;
+}
+
+img {
+    /* width: 400px; */
+    width: 20%;
+}
+
+/* img {
+    /* Pixels are an absolute unit, so they stay the same size. */
+    /* width: 400px; */
+
+    /* VW is based on the width of the view port. As the width gets smaller or bigger, so does the image. */
+    /* width: 40vw; */
+
+    /* VH is based on the height of the view port. As the height gets smaller or bigger, so does the image. */
+    /* height: 40vh; */
+/* } */
+
+button {
+    background-color: azure;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkbts3rEhd5RPgm_l_T7EAv3hiQSW10m6LQ&usqp=CAU');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* * {
+    /* put css code for google font to apply to whole body */
+/* } 
